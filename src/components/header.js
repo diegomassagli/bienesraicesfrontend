@@ -1,18 +1,20 @@
 import React from 'react';
-//import { Link } from 'gatsby';
+import { Link }  from 'gatsby';
+import Navegacion from './navegacion';
 
 
 const Header = () => {
   return ( 
-
-    <Header>
-      {/* <div>
+    
+    <header>
+      <div>
+        <h1>Hola</h1>
         <Link to="/">
           Bienes Raices
         </Link>
-      </div> */}
-    </Header>
-
+        <Navegacion />
+      </div>
+    </header>
    );
 }
  
